@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    width: 100vw;
+    height: 4vw;
+    background-color: rgb(67, 73, 255);
+    display: flex;
+    align-items: center;
+}
+
+.logo1 {
+    width: 44px;
+    height: 44px;
+    margin: 0px 0px 0px 10px;
+}
+
+.temp {
+    width: 10vw;
+    height: inherit;
+}
+
+.temp2 {
+    width: 2vw;
+}
+
+.login {
+    /* margin: 0px 0px 0px 380px; */
+    height: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(48, 56, 10);
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav button {
+    width: 5vw;
+    height: 5vh;
+    margin: 9px;
+    border-radius: 8px;
+}
+
+.cart {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(10, 56, 10);
+}
+
+.search {
+    width: 37vw;
+    height: 2.5vw;
+    border-radius: 10px;
+    padding: 1vw;
+
+}
+
+.temp1 {
+    width: 3vw;
+}
+
+.myfooter {
+    width: 100vw;
+    height: 18vw;
+    background-color: black;
+    color: rgb(149, 163, 223);
+
+    padding: 1vw 0vw;
+}
+
+.footercontainer {
+    display: flex;
+}
+
+.fdiv {
+    width: 20vw;
+    text-decoration: none;
+    padding: 0vw 1vw;
+}
+
+.fdiv a {
+    text-decoration: none;
+    color: white;
+}
+
+.fdiv a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.f6p {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vw;
+    color: white;
+
+}

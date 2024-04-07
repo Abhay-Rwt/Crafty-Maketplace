@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Merriweather+Sans:ital,wght@1,300&family=Space+Grotesk&display=swap');
+
+.container {
+    /* background-color: rgb(235, 235, 235); */
+
+}
+
+.slider {
+    /* background-color: red; */
+    height: 80vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.slider img {
+    width: 1250px;
+    padding: 10px 149px;
+    animation: slide1 7s ease-in-out infinite;
+}
+
+@keyframes slide1 {
+    0% {
+        transform: translate(0px);
+    }
+
+    30% {
+        transform: translate(0px);
+    }
+
+    35% {
+        transform: translate(-1547px);
+    }
+
+    70% {
+        transform: translate(-1547px);
+    }
+
+    75% {
+        transform: translate(-3094px);
+    }
+
+    98% {
+        transform: translate(-3094px);
+    }
+}
+
+.sbi-card {
+    width: 90%;
+    margin: auto;
+}
+
+.sbi-card img {
+    width: 100%;
+}
+
+.card1 {
+    width: 90%;
+    height: 62vh;
+    background-color: rgb(220, 255, 255);
+    margin: auto;
+    display: flex;
+    padding: 0px 24px;
+}
+
+.top-deals {
+    width: 90%;
+    background-color: rgb(220, 255, 255);
+    margin: auto;
+    font-size: 30px;
+    padding: 0px 24px;
+}
+.discover-trends {
+    width: 90%;
+    background-color: rgb(220, 255, 255);
+    margin: 20px auto 0px auto;
+    font-size: 30px;
+    padding: 0px 24px;
+}
+
+.cards img {
+    width: 100%;
+    height: 180px;
+}
+
+.cards {
+    width: 253px;
+    padding: 15px;
+    text-align: center;
+    margin: 8px;
+    border: 2px solid black;
+    height: 54vh;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+
+.my-1 {
+    font-family: 'Space Grotesk', sans-serif;
+    ;
+}
+
+
+.my-2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bolder;
+}
+
+.cards a .my-1:hover {
+    font-weight: bolder;
+}
